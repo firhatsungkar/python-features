@@ -21,3 +21,4 @@ pip install -p requirements.txt
 ### Python Features
 1. [Structural Pattern Matching](/structural-pattern-matching/README.md)
 2. [Data Classes](/data-classes/README.md)
+3. [Pythonic Factory Pattern](/pythonic-factory-pattern/README.md)
