@@ -86,11 +86,13 @@ class ExporterFactory(Protocol):
     The factory doesn't maintain any of the instances it creates.
     """
 
-    def get_video_exporter(self) -> VideoExporter:  # type: ignore
+    def get_video_exporter(self) -> VideoExporter:
         """Returns a new video exporter belonging to this factory."""
+        ...
 
-    def get_audio_exporter(self) -> AudioExporter:  # type: ignore
+    def get_audio_exporter(self) -> AudioExporter:
         """Returns a new audio exporter belonging to this factory."""
+        ...
 
 
 @dataclass
